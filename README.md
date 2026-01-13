@@ -8,7 +8,6 @@ Aplicação Android desenvolvida em Jetpack Compose para gestão de filmes com i
 
 1. **Ecra Filmes**
    - Barra de pesquisa para procurar filmes
-   - 3 filmes de recomendações
    - Opções para adicionar filmes a Favoritos, Vistos ou Por Ver
 
 2. **Ecra Vistos**
@@ -88,23 +87,23 @@ A aplicação utiliza a API IMDB236 da RapidAPI. A chave API está configurada e
 3. Premir enter ou clicar no ícone de pesquisa
 
 ### Adicionar aos Favoritos:
-1. Pesquisar ou ver as recomendações
-2. Clicar no botão "Favorito" (ícone de coração)
+1. Pesquisar
+2. Clicar no botão "Favorito" 
 3. O filme fica guardado localmente
 
 ### Marcar como Visto:
-1. Pesquisar ou ver as recomendações
-2. Clicar no botão "Visto" (ícone de estrela)
+1. Pesquisar
+2. Clicar no botão "Visto"
 3. O filme aparece no ecrã "Vistos"
 
 ### Adicionar a Por Ver:
-1. Pesquisar ou ver as recomendações
+1. Pesquisar
 2. Clicar no botão "Adicionar a Por Ver"
 3. O filme aparece no ecrã "Por Ver"
 
 ### Remover Filmes:
 1. Aceder ao ecrã correspondente (Favoritos/Vistos/Por Ver)
-2. Clicar no ícone de lixeira (Delete) ao lado do filme
+2. Clicar no ícone de Delete ao lado do filme
 3. O filme é removido da lista
 
 ## 💾 Armazenamento Local
